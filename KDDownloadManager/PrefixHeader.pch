@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  KDDownloadManager
+//
+//  Created by 范魁东 on 2020/5/19.
+//  Copyright © 2020 FanKD. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "AFNetworking.h"
+#import "FMDB.h"
+
+#import "KDownloadManager.h"
+#import "KDDataBaseManager.h"
+#import "KDGlobalConst.h"
+#import "KDTool.h"
+
+#define KMainW [UIScreen mainScreen].bounds.size.width
+
+#endif /* PrefixHeader_pch */

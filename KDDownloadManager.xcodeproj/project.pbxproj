@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1821DD7D2473869400D738FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821DD7C2473869400D738FB /* AppDelegate.m */; };
+		1821DD832473869400D738FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821DD822473869400D738FB /* ViewController.m */; };
+		1821DD882473869600D738FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1821DD872473869600D738FB /* Assets.xcassets */; };
+		1821DD8B2473869600D738FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1821DD892473869600D738FB /* LaunchScreen.storyboard */; };
+		1821DD8E2473869600D738FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821DD8D2473869600D738FB /* main.m */; };
+		1821DD972473876F00D738FB /* KDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821DD962473876F00D738FB /* KDownloadManager.m */; };
+		1821DD9B24738BD600D738FB /* KDGlobalConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821DD9A24738BD600D738FB /* KDGlobalConst.m */; };
+		1821DD9E24738C9400D738FB /* KDDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821DD9D24738C9400D738FB /* KDDataBaseManager.m */; };
+		1821DDA124738CB300D738FB /* KDDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821DDA024738CB300D738FB /* KDDownloadModel.m */; };
+		1821DDA424738DF000D738FB /* KDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821DDA324738DF000D738FB /* KDTool.m */; };
+		1821DDA724739DC400D738FB /* AFDownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821DDA624739DC400D738FB /* AFDownloadCell.m */; };
+		1821DDAA24739E2900D738FB /* KDDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821DDA924739E2900D738FB /* KDDownloadButton.m */; };
+		49A7FE628CDC1FF4F0A5B74E /* Pods_KDDownloadManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA521BC715EFDEE0726D5BA /* Pods_KDDownloadManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1821DD782473869400D738FB /* KDDownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KDDownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1821DD7B2473869400D738FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1821DD7C2473869400D738FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1821DD812473869400D738FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1821DD822473869400D738FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1821DD872473869600D738FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1821DD8A2473869600D738FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1821DD8C2473869600D738FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1821DD8D2473869600D738FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1821DD952473876F00D738FB /* KDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDownloadManager.h; sourceTree = "<group>"; };
+		1821DD962473876F00D738FB /* KDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDownloadManager.m; sourceTree = "<group>"; };
+		1821DD9824738B3000D738FB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1821DD9924738BD600D738FB /* KDGlobalConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDGlobalConst.h; sourceTree = "<group>"; };
+		1821DD9A24738BD600D738FB /* KDGlobalConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDGlobalConst.m; sourceTree = "<group>"; };
+		1821DD9C24738C9400D738FB /* KDDataBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDDataBaseManager.h; sourceTree = "<group>"; };
+		1821DD9D24738C9400D738FB /* KDDataBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDDataBaseManager.m; sourceTree = "<group>"; };
+		1821DD9F24738CB300D738FB /* KDDownloadModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDDownloadModel.h; sourceTree = "<group>"; };
+		1821DDA024738CB300D738FB /* KDDownloadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDDownloadModel.m; sourceTree = "<group>"; };
+		1821DDA224738DF000D738FB /* KDTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDTool.h; sourceTree = "<group>"; };
+		1821DDA324738DF000D738FB /* KDTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDTool.m; sourceTree = "<group>"; };
+		1821DDA524739DC400D738FB /* AFDownloadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFDownloadCell.h; sourceTree = "<group>"; };
+		1821DDA624739DC400D738FB /* AFDownloadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFDownloadCell.m; sourceTree = "<group>"; };
+		1821DDA824739E2900D738FB /* KDDownloadButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDDownloadButton.h; sourceTree = "<group>"; };
+		1821DDA924739E2900D738FB /* KDDownloadButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDDownloadButton.m; sourceTree = "<group>"; };
+		2F506246C68161D38C254E90 /* Pods-KDDownloadManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDDownloadManager.debug.xcconfig"; path = "Target Support Files/Pods-KDDownloadManager/Pods-KDDownloadManager.debug.xcconfig"; sourceTree = "<group>"; };
+		6C1C329FF29316330BFE581C /* Pods-KDDownloadManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDDownloadManager.release.xcconfig"; path = "Target Support Files/Pods-KDDownloadManager/Pods-KDDownloadManager.release.xcconfig"; sourceTree = "<group>"; };
+		9DA521BC715EFDEE0726D5BA /* Pods_KDDownloadManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDDownloadManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1821DD752473869400D738FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A7FE628CDC1FF4F0A5B74E /* Pods_KDDownloadManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1821DD6F2473869400D738FB = {
+			isa = PBXGroup;
+			children = (
+				1821DD7A2473869400D738FB /* KDDownloadManager */,
+				1821DD792473869400D738FB /* Products */,
+				8128736FDBBA48ACA4034AD5 /* Pods */,
+				1FCFC5FBF3559E20877BC3DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1821DD792473869400D738FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1821DD782473869400D738FB /* KDDownloadManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1821DD7A2473869400D738FB /* KDDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				1821DD7B2473869400D738FB /* AppDelegate.h */,
+				1821DD7C2473869400D738FB /* AppDelegate.m */,
+				1821DD812473869400D738FB /* ViewController.h */,
+				1821DD822473869400D738FB /* ViewController.m */,
+				1821DDA524739DC400D738FB /* AFDownloadCell.h */,
+				1821DDA624739DC400D738FB /* AFDownloadCell.m */,
+				1821DDA824739E2900D738FB /* KDDownloadButton.h */,
+				1821DDA924739E2900D738FB /* KDDownloadButton.m */,
+				1821DD942473875400D738FB /* KDDownload */,
+				1821DD872473869600D738FB /* Assets.xcassets */,
+				1821DD892473869600D738FB /* LaunchScreen.storyboard */,
+				1821DD8C2473869600D738FB /* Info.plist */,
+				1821DD9824738B3000D738FB /* PrefixHeader.pch */,
+				1821DD8D2473869600D738FB /* main.m */,
+			);
+			path = KDDownloadManager;
+			sourceTree = "<group>";
+		};
+		1821DD942473875400D738FB /* KDDownload */ = {
+			isa = PBXGroup;
+			children = (
+				1821DD952473876F00D738FB /* KDownloadManager.h */,
+				1821DD962473876F00D738FB /* KDownloadManager.m */,
+				1821DD9C24738C9400D738FB /* KDDataBaseManager.h */,
+				1821DD9D24738C9400D738FB /* KDDataBaseManager.m */,
+				1821DD9F24738CB300D738FB /* KDDownloadModel.h */,
+				1821DDA024738CB300D738FB /* KDDownloadModel.m */,
+				1821DDA224738DF000D738FB /* KDTool.h */,
+				1821DDA324738DF000D738FB /* KDTool.m */,
+				1821DD9924738BD600D738FB /* KDGlobalConst.h */,
+				1821DD9A24738BD600D738FB /* KDGlobalConst.m */,
+			);
+			path = KDDownload;
+			sourceTree = "<group>";
+		};
+		1FCFC5FBF3559E20877BC3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA521BC715EFDEE0726D5BA /* Pods_KDDownloadManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8128736FDBBA48ACA4034AD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F506246C68161D38C254E90 /* Pods-KDDownloadManager.debug.xcconfig */,
+				6C1C329FF29316330BFE581C /* Pods-KDDownloadManager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1821DD772473869400D738FB /* KDDownloadManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1821DD912473869600D738FB /* Build configuration list for PBXNativeTarget "KDDownloadManager" */;
+			buildPhases = (
+				81364B9077AF7230F676F8C0 /* [CP] Check Pods Manifest.lock */,
+				1821DD742473869400D738FB /* Sources */,
+				1821DD752473869400D738FB /* Frameworks */,
+				1821DD762473869400D738FB /* Resources */,
+				87D185243CD139785467F7C7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDDownloadManager;
+			productName = KDDownloadManager;
+			productReference = 1821DD782473869400D738FB /* KDDownloadManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1821DD702473869400D738FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = FanKD;
+				TargetAttributes = {
+					1821DD772473869400D738FB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1821DD732473869400D738FB /* Build configuration list for PBXProject "KDDownloadManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1821DD6F2473869400D738FB;
+			productRefGroup = 1821DD792473869400D738FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1821DD772473869400D738FB /* KDDownloadManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1821DD762473869400D738FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1821DD8B2473869600D738FB /* LaunchScreen.storyboard in Resources */,
+				1821DD882473869600D738FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81364B9077AF7230F676F8C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KDDownloadManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87D185243CD139785467F7C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KDDownloadManager/Pods-KDDownloadManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1821DD742473869400D738FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1821DDA424738DF000D738FB /* KDTool.m in Sources */,
+				1821DDA124738CB300D738FB /* KDDownloadModel.m in Sources */,
+				1821DD832473869400D738FB /* ViewController.m in Sources */,
+				1821DD9B24738BD600D738FB /* KDGlobalConst.m in Sources */,
+				1821DD7D2473869400D738FB /* AppDelegate.m in Sources */,
+				1821DD9E24738C9400D738FB /* KDDataBaseManager.m in Sources */,
+				1821DD8E2473869600D738FB /* main.m in Sources */,
+				1821DD972473876F00D738FB /* KDownloadManager.m in Sources */,
+				1821DDAA24739E2900D738FB /* KDDownloadButton.m in Sources */,
+				1821DDA724739DC400D738FB /* AFDownloadCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1821DD892473869600D738FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1821DD8A2473869600D738FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1821DD8F2473869600D738FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1821DD902473869600D738FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1821DD922473869600D738FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F506246C68161D38C254E90 /* Pods-KDDownloadManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW8U9YA9E8;
+				GCC_PREFIX_HEADER = KDDownloadManager/PrefixHeader.pch;
+				INFOPLIST_FILE = KDDownloadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.functions.KDDownloadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1821DD932473869600D738FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1C329FF29316330BFE581C /* Pods-KDDownloadManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW8U9YA9E8;
+				GCC_PREFIX_HEADER = KDDownloadManager/PrefixHeader.pch;
+				INFOPLIST_FILE = KDDownloadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.functions.KDDownloadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1821DD732473869400D738FB /* Build configuration list for PBXProject "KDDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1821DD8F2473869600D738FB /* Debug */,
+				1821DD902473869600D738FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1821DD912473869600D738FB /* Build configuration list for PBXNativeTarget "KDDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1821DD922473869600D738FB /* Debug */,
+				1821DD932473869600D738FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1821DD702473869400D738FB /* Project object */;
+}

@@ -1,0 +1,8 @@
+.DS_Store
+Pods
+*.xcworkspace
+Podfile.lock
+xcuserdata
+.svn
+Carthage
+Cartfile.resolved
